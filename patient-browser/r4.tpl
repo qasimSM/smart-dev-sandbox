@@ -1040,7 +1040,7 @@
     renderSelectedOnly: false,
     fhirViewer: {
         enabled: true,
-        url: '$HOST:$FHIR_VIEWER_PORT/index.html',
+        url: 'http://$HOST:$FHIR_VIEWER_PORT/index.html',
         param: 'url',
     },
     outputMode: 'id-list',
